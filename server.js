@@ -1,116 +1,130 @@
 const express = require('express');
-const fs = require('fs');
-const path = require('path');
+const mongoose = require('mongoose');
 const cors = require('cors');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DATA_FILE = path.join(__dirname, 'data', 'data.json');
 
+// Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-// Utility: Read Data
-const readData = () => {
-    if (!fs.existsSync(DATA_FILE)) return [];
-    try {
-        const data = fs.readFileSync(DATA_FILE, 'utf8');
-        return JSON.parse(data) || [];
-    } catch (err) {
-        console.error("Error reading data:", err);
-        return [];
-    }
-};
+// --------------------
+// MongoDB Connection
+// --------------------
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => console.log('MongoDB connected'))
+    .catch(err => {
+        console.error('MongoDB connection error:', err);
+        process.exit(1);
+    });
 
-// Utility: Write Data
-const writeData = (data) => {
-    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-};
-
-// GET: All Data
-app.get('/api/data', (req, res) => {
-    res.json(readData());
+// --------------------
+// Schema & Model
+// --------------------
+const TraderSchema = new mongoose.Schema({
+    CITIES: { type: String, required: true },
+    Traders: { type: String, required: true },
+    GST: { type: String, default: 'NO GST' }
 });
 
-// POST: Add New Entry
-app.post('/api/data', (req, res) => {
-    try {
-        let { city, trader, gst } = req.body;
-        if (!city || !trader) return res.status(400).json({ error: "City and Trader are required." });
+// Prevent duplicate trader per city
+TraderSchema.index({ CITIES: 1, Traders: 1 }, { unique: true });
 
-        const newEntry = {
-            CITIES: city.trim().toUpperCase(),
-            Traders: trader.trim().toUpperCase(),
-            GST: gst ? gst.trim().toUpperCase() : "NO GST"
+const Trader = mongoose.model('Trader', TraderSchema);
+
+// --------------------
+// API ROUTES
+// --------------------
+
+// GET all data
+app.get('/api/data', async (req, res) => {
+    try {
+        const data = await Trader.find().lean();
+        res.json(data);
+    } catch (err) {
+        res.status(500).json({ error: 'Server error' });
+    }
+});
+
+// ADD new entry
+app.post('/api/data', async (req, res) => {
+    try {
+        const entry = {
+            CITIES: req.body.city.trim().toUpperCase(),
+            Traders: req.body.trader.trim().toUpperCase(),
+            GST: req.body.gst?.trim().toUpperCase() || 'NO GST'
         };
 
-        const currentData = readData();
-        const exists = currentData.some(entry => 
-            entry.CITIES === newEntry.CITIES && entry.Traders === newEntry.Traders
-        );
+        await Trader.create(entry);
+        res.status(201).json({ message: 'Added successfully' });
 
-        if (exists) return res.status(409).json({ error: "Trader already exists in this city." });
-
-        currentData.push(newEntry);
-        writeData(currentData);
-        res.status(201).json({ message: "Added successfully", entry: newEntry });
-    } catch (error) {
-        res.status(500).json({ error: "Server Error" });
+    } catch (err) {
+        if (err.code === 11000) {
+            return res.status(409).json({
+                error: 'Trader already exists in this city.'
+            });
+        }
+        res.status(500).json({ error: 'Server error' });
     }
 });
 
-// PUT: Update Entry
-app.put('/api/data', (req, res) => {
+// UPDATE entry
+app.put('/api/data', async (req, res) => {
     try {
         const { oldCity, oldTrader, newCity, newTrader, newGST } = req.body;
-        const currentData = readData();
-        const index = currentData.findIndex(d => d.CITIES === oldCity && d.Traders === oldTrader);
-        
-        if (index === -1) return res.status(404).json({ error: "Entry not found." });
 
-        if (newCity !== oldCity || newTrader !== oldTrader) {
-            const duplicate = currentData.some(d => d.CITIES === newCity.toUpperCase() && d.Traders === newTrader.toUpperCase());
-            if (duplicate) return res.status(409).json({ error: "New name/city creates a duplicate." });
+        const updated = await Trader.findOneAndUpdate(
+            { CITIES: oldCity, Traders: oldTrader },
+            {
+                CITIES: newCity.trim().toUpperCase(),
+                Traders: newTrader.trim().toUpperCase(),
+                GST: newGST?.trim().toUpperCase() || 'NO GST'
+            }
+        );
+
+        if (!updated) {
+            return res.status(404).json({ error: 'Entry not found.' });
         }
 
-        currentData[index] = {
-            CITIES: newCity.trim().toUpperCase(),
-            Traders: newTrader.trim().toUpperCase(),
-            GST: newGST ? newGST.trim().toUpperCase() : "NO GST"
-        };
+        res.json({ message: 'Updated successfully' });
 
-        writeData(currentData);
-        res.json({ message: "Updated successfully" });
-    } catch (error) {
-        res.status(500).json({ error: "Server Error" });
+    } catch (err) {
+        res.status(500).json({ error: 'Server error' });
     }
 });
 
-// DELETE: Remove Entry
-app.delete('/api/data', (req, res) => {
+// DELETE entry
+app.delete('/api/data', async (req, res) => {
     try {
         const { city, trader } = req.body;
-        let currentData = readData();
-        
-        const initialLength = currentData.length;
-        currentData = currentData.filter(d => !(d.CITIES === city && d.Traders === trader));
-        
-        if (currentData.length === initialLength) {
-            return res.status(404).json({ error: "Entry not found." });
+
+        const result = await Trader.deleteOne({
+            CITIES: city,
+            Traders: trader
+        });
+
+        if (!result.deletedCount) {
+            return res.status(404).json({ error: 'Entry not found.' });
         }
 
-        writeData(currentData);
-        res.json({ message: "Deleted successfully" });
-    } catch (error) {
-        res.status(500).json({ error: "Server Error" });
+        res.json({ message: 'Deleted successfully' });
+
+    } catch (err) {
+        res.status(500).json({ error: 'Server error' });
     }
 });
 
+// --------------------
+// SPA Fallback
+// --------------------
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+// --------------------
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
