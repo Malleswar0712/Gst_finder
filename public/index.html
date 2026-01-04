@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-primary mb-4 shadow-sm sticky-top">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center gap-2">
+                <span class="navbar-brand mb-0 h1"><i class="bi bi-search"></i> GST Finder</span>
+                
+                <input type="text" id="searchInput" class="form-control form-control-sm d-none d-sm-block" 
+                       placeholder="Search..." style="width: 200px;" onkeyup="handleSearch()">
+            </div>
+            
+            <div>
+                <button class="btn btn-outline-light me-2" onclick="toggleFullScreen()"><i class="bi bi-arrows-fullscreen"></i></button>
+                <button class="btn btn-light text-primary" data-bs-toggle="modal" data-bs-target="#addEntryModal"><i class="bi bi-plus-lg"></i> Add</button>
+            </div>
+        </div>
+        <div class="container-fluid d-sm-none mt-2">
+            <input type="text" id="searchInputMobile" class="form-control form-control-sm" 
+                   placeholder="Search..." onkeyup="handleSearch()">
+        </div>
+    </nav>
+
+    <div class="container main-container">
+        
+        <div id="nav-controls" class="mb-3 d-none">
+            <button class="btn btn-secondary btn-sm" onclick="goBack()"><i class="bi bi-arrow-left"></i> Back</button>
+            <span id="breadcrumb" class="ms-2 text-muted fw-bold"></span>
+        </div>
+
+        <div id="view-cities" class="view-section active">
+            <h4 class="mb-3 text-secondary">Select City</h4>
+            <div id="cities-container" class="row g-3"></div>
+        </div>
+
+        <div id="view-traders" class="view-section">
+            <h4 class="mb-3 text-secondary">Select Trader</h4>
+            <div id="traders-container" class="row g-3"></div>
+        </div>
+
+        <div id="view-gst" class="view-section text-center mt-5">
+            <div class="card p-5 shadow-lg border-0 position-relative">
+                <button class="btn btn-outline-primary position-absolute top-0 end-0 m-3" onclick="openEditModal()">
+                    <i class="bi bi-pencil-square"></i> Edit
+                </button>
+                <h2 class="text-muted mb-4" id="gst-trader-name">Trader Name</h2>
+                <div class="gst-display" id="gst-number">Loading...</div>
+                <p class="mt-3 text-secondary">GST Number</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addEntryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add New Entry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addForm">
+                        <div class="mb-3"><label>City *</label><input type="text" class="form-control" id="inputCity" required></div>
+                        <div class="mb-3"><label>Trader *</label><input type="text" class="form-control" id="inputTrader" required></div>
+                        <div class="mb-3"><label>GST</label><input type="text" class="form-control" id="inputGST"></div>
+                        <div id="addAlert" class="alert alert-danger d-none"></div>
+                        <button type="submit" class="btn btn-primary w-100">Save Entry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editEntryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title">Edit Entry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <div class="mb-3"><label>City</label><input type="text" class="form-control" id="editCity" required></div>
+                        <div class="mb-3"><label>Trader</label><input type="text" class="form-control" id="editTrader" required></div>
+                        <div class="mb-3"><label>GST</label><input type="text" class="form-control" id="editGST"></div>
+                        <div id="editAlert" class="alert alert-danger d-none"></div>
+                        
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-success flex-grow-1">Update Entry</button>
+                            <button type="button" class="btn btn-danger" onclick="deleteEntry()">
+                                <i class="bi bi-trash"></i> Delete
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

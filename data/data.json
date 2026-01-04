@@ -1,0 +1,762 @@
+[
+  {
+    "Traders": "ADURI SUBBA RAO",
+    "GST": "37AMXPA2979D1ZO",
+    "CITIES": "MEDARAMETLA"
+  },
+  {
+    "Traders": "ALAYA SUSMITHA OILS",
+    "GST": "37AKMPM5928K1ZH",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "ANITHA KIRANA MERCHANTS",
+    "GST": "36ALMPB3592R1ZE",
+    "CITIES": "SURYAPET"
+  },
+  {
+    "Traders": "ANJANEYA TRADERS",
+    "GST": "37AHQPP1300D1ZM",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "ARPITH AGRO INDUSTRIES PVT LTD",
+    "GST": "27AAECA3557B1Z0",
+    "CITIES": "JALAGAON"
+  },
+  {
+    "Traders": "ARUNA TRADERS",
+    "GST": "37BCIPM1026P1ZA",
+    "CITIES": "TANUKU"
+  },
+  {
+    "Traders": "ARUNA TRADING COMPANY",
+    "GST": "36ACBPT1158P1Z4",
+    "CITIES": "KHAMMAM"
+  },
+  {
+    "Traders": "ASHOK TRADERS",
+    "GST": "37AIBPG2230L2ZK",
+    "CITIES": "VIJAYAWADA"
+  },
+  {
+    "Traders": "BALA DALL MILL",
+    "GST": "37ACLPD6037C1ZL",
+    "CITIES": "HANUMANJUNCTION"
+  },
+  {
+    "Traders": "BALA DALL MILL",
+    "GST": "37ALLPD6037C1ZC",
+    "CITIES": "HANUMAN JUNCTION"
+  },
+  {
+    "Traders": "BHEEMESWARA SORTEX",
+    "GST": "37ASGPC3725L1ZO",
+    "CITIES": "KANCHERLAPALLI"
+  },
+  {
+    "Traders": "C.K.M TRADERS & GENERAL MERCHANTS",
+    "GST": "36AMEPC2107Q1Z4",
+    "CITIES": "KODADA"
+  },
+  {
+    "Traders": "C.K.M. AGENCIES",
+    "GST": "36BLXPM3554N1Z5",
+    "CITIES": "KODADA"
+  },
+  {
+    "Traders": "CH.KOTAIAH",
+    "GST": "37AVNPC7127J1ZB",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "DATTA MARUTHI TRADERS",
+    "GST": "37AHFPM3641K1Z5",
+    "CITIES": "NUZIVEEDU"
+  },
+  {
+    "Traders": "DATTA SAI TRADERS",
+    "GST": "37ALJPM4478M1ZH",
+    "CITIES": "NUZIVEEDU"
+  },
+  {
+    "Traders": "DEVAKI VENKATA SUBBARAO",
+    "GST": "37APMPP1259B1ZV",
+    "CITIES": "MACHERLA"
+  },
+  {
+    "Traders": "DHANALAKSHMI TRADERS - WARANGAL",
+    "GST": "36ANIPM9429N2Z6",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "DINAKARA GENERAL STORES",
+    "GST": "37BPEPM0611K1Z0",
+    "CITIES": "TANUKU"
+  },
+  {
+    "Traders": "DOSAPATI GURUNADHA RAO DALL & PULSES",
+    "GST": "37ASEPD4087G1ZR",
+    "CITIES": "VINUKONDA"
+  },
+  {
+    "Traders": "DURGA GENERAL STORES",
+    "GST": "NO GST",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "DURGA TRADERS",
+    "GST": "37DWAPD3217H1Z1",
+    "CITIES": "BAPATLA"
+  },
+  {
+    "Traders": "ERUKALA SOMA LINGAM & SONS",
+    "GST": "36AACPE5917G1ZY",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "ERUKULA NAGA BHUSHANAM",
+    "GST": "36AAAFE4691F1ZL",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "G.M.R ENTERPRISES",
+    "GST": "37AABFG9611L1Z6",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "GANESH BALAJI KIRANA GENERAL STORES",
+    "GST": "37AABFG9649J1ZW",
+    "CITIES": "PENUGONDA"
+  },
+  {
+    "Traders": "GAYATHRI RICE MERCHANTS",
+    "GST": "37AYWPL1055E1Z7",
+    "CITIES": "MACHERLA"
+  },
+  {
+    "Traders": "GAYATHRI SUBBARAYA GENERAL STORES",
+    "GST": "37AIAPM6875D1Z4",
+    "CITIES": "NUZIVEEDU"
+  },
+  {
+    "Traders": "HANUMAN TRADING COMPANY",
+    "GST": "36AABFH0870J1ZG",
+    "CITIES": "KOTHAGUDEM"
+  },
+  {
+    "Traders": "HARSHA KIRANA & GENERAL MERCHANTS",
+    "GST": "36ACCPK0503E1ZC",
+    "CITIES": "KHAMMAM"
+  },
+  {
+    "Traders": "JAI SRI VENKATESWARA SWAMY TRADERS",
+    "GST": "37BBRPS6432B1ZE",
+    "CITIES": "BHIMADOLU"
+  },
+  {
+    "Traders": "JAY BHARAT PULSE MILLS",
+    "GST": "24AABFJ7092C1ZM",
+    "CITIES": "HIMMATNAGAR"
+  },
+  {
+    "Traders": "JAYA DURGA ENTERPRISES",
+    "GST": "36AGTPG0403E1ZS",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "JAYALAKSHMI TRADERS - PALAKOLLU",
+    "GST": "37AATPT7635F1ZZ",
+    "CITIES": "PALAKOLLU"
+  },
+  {
+    "Traders": "K.K.TRADERS",
+    "GST": "37AZGPM3390L1ZV",
+    "CITIES": "KARLAPALEM"
+  },
+  {
+    "Traders": "K.RAMA MOHAN GENERAL MERCHANTS",
+    "GST": "36AGOPK3891K1ZQ",
+    "CITIES": "PALVANCHA"
+  },
+  {
+    "Traders": "KOTHA VEERAIAH",
+    "GST": "37ACPPK4284P1ZN",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "KRISHNA INDUSTRIES",
+    "GST": "37AAJFK3862B1ZE",
+    "CITIES": "TENALI"
+  },
+  {
+    "Traders": "KRISHNA KUMAR AGRO PRODUCTS",
+    "GST": "37ABYPD3277H2Z5",
+    "CITIES": "GUNTUR"
+  },
+  {
+    "Traders": "KUMAR ENTERPRISES",
+    "GST": "36AAGFK0679K1ZZ",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "KUSUMA HARNADH FANCY & GENERAL STORES",
+    "GST": "37AGVPN7189E1ZK",
+    "CITIES": "MEDARAMETLA"
+  },
+  {
+    "Traders": "LAKSHMI GANAPATHI DALL & FLOUR MILL",
+    "GST": "37CRGPK0278P1Z6",
+    "CITIES": "HANUMAN JUNCTION"
+  },
+  {
+    "Traders": "LAKSHMI GANAPATHI TRADERS",
+    "GST": "36AEEFS5262C1Z7",
+    "CITIES": "NAKERIKAL"
+  },
+  {
+    "Traders": "LAKSHMI GAYATHRI KIRANA & GENERAL MERCHANTS",
+    "GST": "36ALHPD0020F1ZX",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "LAKSHMI LASYA AGRO PROCESSING INDUSTRIES",
+    "GST": "37AADFL5942P1ZP",
+    "CITIES": "INKOLLU"
+  },
+  {
+    "Traders": "LAKSHMI PUTRA ENTERPRISES",
+    "GST": "37ASFPT9121L1Z6",
+    "CITIES": "GANNAVARAM"
+  },
+  {
+    "Traders": "LAKSHMI SARASWATHI TRADERS",
+    "GST": "36ADCFS5990E1ZU",
+    "CITIES": "NAKARIKAL"
+  },
+  {
+    "Traders": "LAKSHMI TRADERS - GUDIVADA",
+    "GST": "37ACPPK4289A1ZE",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "LAKSHMI TRADERS - HANUMAN JUNCTION",
+    "GST": "37ACVPT1122D1ZJ",
+    "CITIES": "HANUMANJUNCTION"
+  },
+  {
+    "Traders": "LAKSHMI TRADERS - MACHERLA",
+    "GST": "37AMYPG9087H1Z4",
+    "CITIES": "MACHERLA"
+  },
+  {
+    "Traders": "LAKSHMI VALLABHA TRADERS - PONNUR",
+    "GST": "37AXKPK8587F2ZS",
+    "CITIES": "PONNUR"
+  },
+  {
+    "Traders": "LAKSHMI VENKATESWARA PAPPULA STORES",
+    "GST": "37BEMPG3433A1ZW",
+    "CITIES": "BHIMAVARAM"
+  },
+  {
+    "Traders": "MADHURA MEENAKSHI TRADERS",
+    "GST": "37ACAPO0587E1ZO",
+    "CITIES": "MACHERLA"
+  },
+  {
+    "Traders": "MAHALAKSHMI KIRANA & GENERAL",
+    "GST": "37BOPPP3114Q1Z8",
+    "CITIES": "AMALAPURAM"
+  },
+  {
+    "Traders": "MAHALAKSHMI MARUTHI MINI DALL MILL",
+    "GST": "37BPRPK8827Q1ZN",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "MAHALAKSHMI PULSE CLANING & GRADING INDUSTRIES",
+    "GST": "37AAXFM1355K1ZN",
+    "CITIES": "INKOLLU"
+  },
+  {
+    "Traders": "MAHESWARI ENTERPRISES",
+    "GST": "36ABBFM3880C1ZG",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "MALLIKHARJUNA GENERAL MERCHANTS - WARANGAL",
+    "GST": "36HJRPK1199H1ZJ",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "MANGILAL GILDA INDUSTRIES",
+    "GST": "36AASFM7774R1ZX",
+    "CITIES": "MAHABOOBNAGAR"
+  },
+  {
+    "Traders": "MARUTHI AGENCIES",
+    "GST": "37ARYPP1658C2Z9",
+    "CITIES": "YARRAGONDAPALEM"
+  },
+  {
+    "Traders": "MARUTHI TRADERS - ADK",
+    "GST": "37ANHPB2668R1ZB",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "MATTUPALLI DALL MILL",
+    "GST": "37AAJFM1661L1ZY",
+    "CITIES": "TENALI"
+  },
+  {
+    "Traders": "MATURI VAYU KUMAR",
+    "GST": "37ASOPM9389G1ZT",
+    "CITIES": "NUZIVEEDU"
+  },
+  {
+    "Traders": "MAVULLAMMA TRADERS",
+    "GST": "37ABZPH8003Q1ZS",
+    "CITIES": "BHIMAVARAM"
+  },
+  {
+    "Traders": "MURALI GENERAL STORES",
+    "GST": "37ARMPM9556C1ZC",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "NAGA SAI TRADERS - PALAKOLLU",
+    "GST": "37ATVPP7756Q1Z5",
+    "CITIES": "PALAKOLLU"
+  },
+  {
+    "Traders": "NEW RAVI KIRANA GENERAL STORES",
+    "GST": "36ATBPV3557F1ZH",
+    "CITIES": "SURYAPET"
+  },
+  {
+    "Traders": "OM SANTHI TRADERS",
+    "GST": "37BDEPP6885L1ZO",
+    "CITIES": "GUDIVADA"
+  },
+  {
+    "Traders": "R.B. TRADERS",
+    "GST": "36CPCPP0558R1Z2",
+    "CITIES": "KOTHAGUDEM"
+  },
+  {
+    "Traders": "R.K. TRADERS",
+    "GST": "36AAHFR7160F1Z4",
+    "CITIES": "KOTHAGUDEM"
+  },
+  {
+    "Traders": "RATNA ENTERPRISES",
+    "GST": "37BNVPS8474F1ZZ",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SAI RAM & CO",
+    "GST": "37AESPG7624Q1ZL",
+    "CITIES": "GUNTUR"
+  },
+  {
+    "Traders": "SAI SRINIVASA OIL TRADERS",
+    "GST": "37ACRFS4352C1ZX",
+    "CITIES": "VINUKONDA"
+  },
+  {
+    "Traders": "SAINADHA TRADERS",
+    "GST": "37ATAPK4272H1ZP",
+    "CITIES": "CHALLAPALLI"
+  },
+  {
+    "Traders": "SANTOSH KIRANA",
+    "GST": "36BUKPK0840F2ZR",
+    "CITIES": "ELLENDU"
+  },
+  {
+    "Traders": "SATYA SIMHADRI FOOD PRODUCTS",
+    "GST": "37GCKPS8831K2ZN",
+    "CITIES": "TANUKU"
+  },
+  {
+    "Traders": "SATYANARAYANA TRADERS - PONNUR",
+    "GST": "37AUFPM4615G1ZN",
+    "CITIES": "PONNUR"
+  },
+  {
+    "Traders": "SIVA SAI GENERAL MERCHANTS",
+    "GST": "37AFSPP5337G1ZX",
+    "CITIES": "BHIMAVARAM"
+  },
+  {
+    "Traders": "SIVA VENKATA NAGA TRADERS",
+    "GST": "37AKCPT0199D1Z2",
+    "CITIES": "BHIMAVARAM"
+  },
+  {
+    "Traders": "SOWMYA TRADERS",
+    "GST": "37AAVPV0210C1ZU",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI AYYAPPA ENTERPRISES",
+    "GST": "37GNGPB5270L1ZP",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI BALA DALL & OIL MILL - HANUMAN JUNCTION",
+    "GST": "37AIIPD6037C1ZL",
+    "CITIES": "HANUMAN JUNCTION"
+  },
+  {
+    "Traders": "SRI BALAJI TRADERS - PALAKOLLU",
+    "GST": "37BYIPG4423J1ZC",
+    "CITIES": "PALAKOLLU"
+  },
+  {
+    "Traders": "SRI BALAJI TRADERS - TADEPALLIGUDEM",
+    "GST": "37DFOPP6600D1ZC",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI BALAJI TRADERS - TENALI",
+    "GST": "37ABQPG1215Q1ZA",
+    "CITIES": "TENALI"
+  },
+  {
+    "Traders": "SRI BHAGAWAN GENERAL STORES - HANUMAN JUNCTION",
+    "GST": "37BDJPP6153J1Z2",
+    "CITIES": "HANUMAN JUNCTION"
+  },
+  {
+    "Traders": "SRI CHAMUNDESWARI KIRANA & GENERAL MERCHANTS",
+    "GST": "37AAEHK4999N1ZA",
+    "CITIES": "SATTENAPALLI"
+  },
+  {
+    "Traders": "SRI GAYATHRI MERCHANTS",
+    "GST": "37AKBPD4185C3ZH",
+    "CITIES": "PONNUR"
+  },
+  {
+    "Traders": "SRI GOPAL TRADERS",
+    "GST": "37BYIPB9795E2ZY",
+    "CITIES": "PENUGONDA"
+  },
+  {
+    "Traders": "SRI HANUMAN DALL MILL",
+    "GST": "37AAIFS5456J1ZO",
+    "CITIES": "GUNTUR"
+  },
+  {
+    "Traders": "SRI HANUMAN TRADERS",
+    "GST": "37AFYPD0542E1ZI",
+    "CITIES": "VUYYUR"
+  },
+  {
+    "Traders": "SRI HARI GENERAL STORES",
+    "GST": "37AZWPJ6516D1Z1",
+    "CITIES": "PONNUR"
+  },
+  {
+    "Traders": "SRI KRISHNA CHAITANYA GENERAL STORES",
+    "GST": "37BWMPM0117K1ZD",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "SRI KRISHNA SAI RICE & GENERAL MERCHANTS",
+    "GST": "37BEIPG6174G1ZC",
+    "CITIES": "ELURU"
+  },
+  {
+    "Traders": "SRI LAKSHMI BALAJI RICE & GENERAL - PONNUR",
+    "GST": "37BFJPM7033L1ZO",
+    "CITIES": "PONNUR"
+  },
+  {
+    "Traders": "SRI LAKSHMI NARASIMHA TRADERS",
+    "GST": "37BFJPM7946G1ZX",
+    "CITIES": "PONNUR"
+  },
+  {
+    "Traders": "SRI LAKSHMI OIL TRADERS",
+    "GST": "37ASWPS2850C1ZB",
+    "CITIES": "TELAPROLU"
+  },
+  {
+    "Traders": "SRI LAKSHMI VALLABHA ENTERPRISES",
+    "GST": "37AICPM2685A2ZL",
+    "CITIES": "PONNUR"
+  },
+  {
+    "Traders": "SRI MARUTHI OIL & GENERAL STORES",
+    "GST": "37AHWPK5593M1Z7",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI MURUGAN TRADERS",
+    "GST": "33FRUPD0762C1ZY",
+    "CITIES": "KATPADI"
+  },
+  {
+    "Traders": "SRI NIDHI TRADERS",
+    "GST": "36ABOPE1097N1Z6",
+    "CITIES": "NALGONDA"
+  },
+  {
+    "Traders": "SRI NILAKANTA TRADERS",
+    "GST": "36AAFFS1298H1ZY",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "SRI RAMA TRADERS",
+    "GST": "37ASCPM6930B1Z4",
+    "CITIES": "NUZIVEEDU"
+  },
+  {
+    "Traders": "SRI SAI AGRO INDUSTRIES",
+    "GST": "37ADEFS3627A1ZC",
+    "CITIES": "MARELLAMUDI"
+  },
+  {
+    "Traders": "SRI SATYA LAKSHMI SPICES",
+    "GST": "37CZAPS0925B1ZN",
+    "CITIES": "BHIMAVARAM"
+  },
+  {
+    "Traders": "SRI SATYANARAYANA ENTERPRISES - TADEPALLIGUDEM",
+    "GST": "37ALHPG1626N1ZX",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI SATYANARAYANA ENTERPRISES - WARANGAL",
+    "GST": "36ABGFS6701B1ZH",
+    "CITIES": "WARANGAL"
+  },
+  {
+    "Traders": "SRI SIVA DURGA GENERAL MERCHANTS",
+    "GST": "37AFBPV6212P1ZX",
+    "CITIES": "TANUKU"
+  },
+  {
+    "Traders": "SRI SIVA KAMESWARI TRADERS",
+    "GST": "36ACLPD7237K1ZC",
+    "CITIES": "MANUGURU"
+  },
+  {
+    "Traders": "SRI SIVA SAI PROVISIONAL STORES",
+    "GST": "37BTBPS9151F1ZF",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "SRI SOWJANYA TRADERS",
+    "GST": "37AAUPU0210C1ZU",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI SRI PHANI RAGHAVENRA TRADERS",
+    "GST": "37AMPPB0459H1Z0",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "SRI SRINIVASA APARALA STORES",
+    "GST": "37CUUPP2957H1ZS",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI SRINIVASA KIRANA TRADERS - ADK",
+    "GST": "37AHFPP5252N1ZO",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "SRI SRINIVASA TRADERS",
+    "GST": "37ATWPT1706A1Z1",
+    "CITIES": "GOLLAPROLU"
+  },
+  {
+    "Traders": "SRI SRINIVASA TRADERS - JAGGAIAHPET",
+    "GST": "37BNPPS9756J1ZT",
+    "CITIES": "JAGGAIAHPET"
+  },
+  {
+    "Traders": "SRI SUVARCHALA DALL MILL",
+    "GST": "37ACXPG9938J1ZL",
+    "CITIES": "PALAKOLLU"
+  },
+  {
+    "Traders": "SRI SWAMY DALL MILL - GNT",
+    "GST": "37ACXFS9020M1Z7",
+    "CITIES": "GUNTUR"
+  },
+  {
+    "Traders": "SRI VEERA VENKATA SATYANARAYANA GENERAL STORES",
+    "GST": "37AELPP4638L1ZT",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "SRI VENKATA KAMESWARI TRADERS",
+    "GST": "36ACCPD7237K1ZC",
+    "CITIES": "MANUGURU"
+  },
+  {
+    "Traders": "SRI VENKATA RAMANA GENERAL STORES",
+    "GST": "37DFTPK9951P1Z3",
+    "CITIES": "BONTUMALLI"
+  },
+  {
+    "Traders": "SRI VENKATA SAI KIRANA & GENERAL STORES",
+    "GST": "36AFBPV0391R1ZR",
+    "CITIES": "NAKIREKAL"
+  },
+  {
+    "Traders": "SRI VENKATA SAI TRADERS",
+    "GST": "37AETPC2029N1Z5",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "SRI VENKATESWARA GENERAL STORES",
+    "GST": "37BETPU9636K1Z1",
+    "CITIES": "HANUMNJUNCTION"
+  },
+  {
+    "Traders": "SRI VENKATESWARA TRADERS",
+    "GST": "37AKSPT9800H2ZF",
+    "CITIES": "CHEBROLU"
+  },
+  {
+    "Traders": "SRI VENKATESWARA TRADING COMPANY",
+    "GST": "37AEEPG4303E1Z2",
+    "CITIES": "IDUPULAPADU"
+  },
+  {
+    "Traders": "SRI VYSHNAVI TRADERS",
+    "GST": "37EVJPK4484G1ZA",
+    "CITIES": "NUTAKKI"
+  },
+  {
+    "Traders": "SRI VYSHNAVI TRADERS",
+    "GST": "37EVJPK4484G1Z4",
+    "CITIES": "NUTAKKI"
+  },
+  {
+    "Traders": "SRINIVASA KIRANA TRADERS",
+    "GST": "37AHFPP5752N1ZO",
+    "CITIES": "ADDANKI"
+  },
+  {
+    "Traders": "SRINIVASA TRADERS",
+    "GST": "37AJHPT1706A1ZI",
+    "CITIES": "GOLLAPALLI"
+  },
+  {
+    "Traders": "SURYA ENTERPRISES",
+    "GST": "37ABRFS9544D1ZL",
+    "CITIES": "TADEPALLIGUDEM"
+  },
+  {
+    "Traders": "TARAKARAMA TRADERS",
+    "GST": "37ATDPC8688D1Z2",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "TARAKARAMA TRADERS",
+    "GST": "37AJDPC8688D1Z2",
+    "CITIES": "GUDIWADA"
+  },
+  {
+    "Traders": "TAVIDI SETTY VENKATESWARLU SON",
+    "GST": "36ABZPT3120C1ZJ",
+    "CITIES": "BHADRACHALAM"
+  },
+  {
+    "Traders": "TULASI GENERAL STORES",
+    "GST": "37AUKPP6401G1ZJ",
+    "CITIES": "MARTURU"
+  },
+  {
+    "Traders": "UMA TRADERS",
+    "GST": "37AGRPM4332J1ZZ",
+    "CITIES": "NUZIVEEDU"
+  },
+  {
+    "Traders": "VAISHNAVI TRADERS",
+    "GST": "37BJVPG7839N1Z3",
+    "CITIES": "AKIVEEDU"
+  },
+  {
+    "Traders": "VAKKALAGADDA SUBBARAO TRADERS",
+    "GST": "37ACVPV4485H1ZL",
+    "CITIES": "GUNTUR"
+  },
+  {
+    "Traders": "VASAVI OIL & GENERAL STORES",
+    "GST": "37AZFPS6600Q1ZP",
+    "CITIES": "PENUGONDA"
+  },
+  {
+    "Traders": "VENKAIAH SWAMY ONIONS",
+    "GST": "37ASDPG3203E1ZD",
+    "CITIES": "HANUMAN JUNCTION"
+  },
+  {
+    "Traders": "VENKATA KRISHNA AGRO INDUSTRIES",
+    "GST": "37ABLPC6890L2Z1",
+    "CITIES": "GUNTUR"
+  },
+  {
+    "Traders": "VENKATA LAKSHMI SHANMUKHA AGRO INDUSTRIES",
+    "GST": "37AVUPN8418J2ZO",
+    "CITIES": "TENALI"
+  },
+  {
+    "Traders": "VENKATA NAGAMANI GENERAL MERCHANTS",
+    "GST": "37BRMPK1481M1Z8",
+    "CITIES": "REPALLE"
+  },
+  {
+    "Traders": "VENKATA RAMA KIRANA & GENERAL MERCHANTS",
+    "GST": "37CDDPS4131B1ZP",
+    "CITIES": "TIRUVURU"
+  },
+  {
+    "Traders": "VENKATA RAMANA TRADERS",
+    "GST": "37CDDPS4131E1ZP",
+    "CITIES": "TIRUVURU"
+  },
+  {
+    "Traders": "VENKATA SAI LALITHA TRADERS",
+    "GST": "37BOLPC1477M1Z1",
+    "CITIES": "TIRUVURU"
+  },
+  {
+    "Traders": "VENKATA SARAVANA GENERAL STORES",
+    "GST": "37AHDPT3387P1ZF",
+    "CITIES": "PALAKOLLU"
+  },
+  {
+    "Traders": "VENKATESWARA TRADERS - MACHERLA",
+    "GST": "37AJOPG0880B1ZD",
+    "CITIES": "MACHERLA"
+  },
+  {
+    "Traders": "VIJAYA ADITYA KIRANA STORES",
+    "GST": "37BITPG1052Q1ZO",
+    "CITIES": "NARASARAOPET"
+  },
+  {
+    "Traders": "VIJAYA DURGA TRADERS",
+    "GST": "37ADQPM1854K1ZZ",
+    "CITIES": "PALAKOLLU"
+  },
+  {
+    "Traders": "VIJAYA LAKSHMI DALL &FLOUR MILL",
+    "GST": "37AADFV7726M1ZJ",
+    "CITIES": "TENALI"
+  },
+  {
+    "Traders": "VIJAYA SRI TRADERS",
+    "GST": "37AISPR4248L2ZA",
+    "CITIES": "HANUMAN JUNCTION"
+  }
+]
